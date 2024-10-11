@@ -30,19 +30,21 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <Button
+    <android.widget.Button
+        android:background="@drawable/button_bg"
         android:id="@+id/button_ce"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="0dp"
         android:layout_height="100dp"
         android:text="CE"
         android:textSize="24sp"
-        app:layout_constraintTop_toBottomOf="@id/display"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button_c"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/display"
         app:layout_constraintWidth_percent="0.25" />
 
-    <Button
+    <android.widget.Button
+        android:background="@drawable/button_bg"
         android:id="@+id/button_c"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="0dp"
@@ -54,7 +56,8 @@
         app:layout_constraintEnd_toStartOf="@+id/button_bs"
         app:layout_constraintWidth_percent="0.25" />
 
-    <Button
+    <android.widget.Button
+        android:background="@drawable/button_bg"
         android:id="@+id/button_bs"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="0dp"
@@ -66,7 +69,8 @@
         app:layout_constraintEnd_toStartOf="@+id/button_divide"
         app:layout_constraintWidth_percent="0.25" />
 
-    <Button
+    <android.widget.Button
+        android:background="@drawable/button_bg"
         android:id="@+id/button_divide"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="0dp"
@@ -78,7 +82,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintWidth_percent="0.25" />
 
-    <Button
+    <android.widget.Button
+        android:background="@drawable/button_light_bg"
         android:id="@+id/button_7"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="0dp"
@@ -90,7 +95,8 @@
         app:layout_constraintEnd_toStartOf="@+id/button_8"
         app:layout_constraintWidth_percent="0.25" />
 
-    <Button
+    <android.widget.Button
+        android:background="@drawable/button_light_bg"
         android:id="@+id/button_8"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="0dp"
@@ -102,7 +108,8 @@
         app:layout_constraintEnd_toStartOf="@+id/button_9"
         app:layout_constraintWidth_percent="0.25" />
 
-    <Button
+    <android.widget.Button
+        android:background="@drawable/button_light_bg"
         android:id="@+id/button_9"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="0dp"
@@ -114,7 +121,8 @@
         app:layout_constraintEnd_toStartOf="@+id/button_multiply"
         app:layout_constraintWidth_percent="0.25" />
 
-    <Button
+    <android.widget.Button
+        android:background="@drawable/button_bg"
         android:id="@+id/button_multiply"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="0dp"
@@ -126,7 +134,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintWidth_percent="0.25" />
 
-    <Button
+    <android.widget.Button
+        android:background="@drawable/button_light_bg"
         android:id="@+id/button_4"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="0dp"
@@ -138,7 +147,8 @@
         app:layout_constraintEnd_toStartOf="@+id/button_5"
         app:layout_constraintWidth_percent="0.25" />
 
-    <Button
+    <android.widget.Button
+        android:background="@drawable/button_light_bg"
         android:id="@+id/button_5"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="0dp"
@@ -150,7 +160,8 @@
         app:layout_constraintEnd_toStartOf="@+id/button_6"
         app:layout_constraintWidth_percent="0.25" />
 
-    <Button
+    <android.widget.Button
+        android:background="@drawable/button_light_bg"
         android:id="@+id/button_6"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="0dp"
@@ -162,7 +173,8 @@
         app:layout_constraintEnd_toStartOf="@+id/button_minus"
         app:layout_constraintWidth_percent="0.25" />
 
-    <Button
+    <android.widget.Button
+        android:background="@drawable/button_bg"
         android:id="@+id/button_minus"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="0dp"
@@ -174,7 +186,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintWidth_percent="0.25" />
 
-    <Button
+    <android.widget.Button
+        android:background="@drawable/button_light_bg"
         android:id="@+id/button_1"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="0dp"
@@ -186,7 +199,8 @@
         app:layout_constraintEnd_toStartOf="@+id/button_2"
         app:layout_constraintWidth_percent="0.25" />
 
-    <Button
+    <android.widget.Button
+        android:background="@drawable/button_light_bg"
         android:id="@+id/button_2"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="0dp"
@@ -198,7 +212,8 @@
         app:layout_constraintEnd_toStartOf="@+id/button_3"
         app:layout_constraintWidth_percent="0.25" />
 
-    <Button
+    <android.widget.Button
+        android:background="@drawable/button_light_bg"
         android:id="@+id/button_3"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="0dp"
@@ -210,7 +225,8 @@
         app:layout_constraintEnd_toStartOf="@+id/button_plus"
         app:layout_constraintWidth_percent="0.25" />
 
-    <Button
+    <android.widget.Button
+        android:background="@drawable/button_bg"
         android:id="@+id/button_plus"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="0dp"
@@ -222,7 +238,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintWidth_percent="0.25" />
 
-    <Button
+    <android.widget.Button
+        android:background="@drawable/button_bg"
         android:id="@+id/button_plus_minus"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="0dp"
@@ -234,7 +251,8 @@
         app:layout_constraintEnd_toStartOf="@+id/button_0"
         app:layout_constraintWidth_percent="0.25" />
 
-    <Button
+    <android.widget.Button
+        android:background="@drawable/button_light_bg"
         android:id="@+id/button_0"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="0dp"
@@ -246,7 +264,8 @@
         app:layout_constraintEnd_toStartOf="@+id/button_dot"
         app:layout_constraintWidth_percent="0.25" />
 
-    <Button
+    <android.widget.Button
+        android:background="@drawable/button_bg"
         android:id="@+id/button_dot"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="0dp"
@@ -258,7 +277,8 @@
         app:layout_constraintEnd_toStartOf="@+id/button_equals"
         app:layout_constraintWidth_percent="0.25" />
 
-    <Button
+    <android.widget.Button
+        android:background="@drawable/button_bg"
         android:id="@+id/button_equals"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="0dp"
